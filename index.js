@@ -139,7 +139,7 @@ ____________________________________________\n
 1. [Installation](#installation)\n
 2. [Usage](#usage)\n
 3. [Contributing](#contributing)\n
-4. [Test](#test)\n
+4. [Tests](#tests)\n
 5. [Questions](#questions)\n
 6. [License](#license)\n
 ____________________________________________\n
