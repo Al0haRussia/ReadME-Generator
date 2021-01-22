@@ -1,8 +1,9 @@
+// Multiple consts to make the generator work
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { animationFrame } = require('rxjs');
 
-// Generates Answers
+// Generates Answers based off of user input
 const questions = [
     {
         type: 'input',
