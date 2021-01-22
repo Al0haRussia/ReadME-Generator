@@ -56,25 +56,25 @@ To install the README generator: <br>
         1. Download this repository <br>
         2. Copy and paste the index.js and package.json into your own repository <br>
         3. Then open your the index.js in the integrated terminal and run the command ```npm i``` <br>
- <br>
+<br>
  
 ____________________________________________
 
 ### Usage
-Follow this video walkthrough on how to user the README Generator: https://drive.google.com/file/d/1pmJN-LFrl8D6-hIq54Rif2x64U9aqSDI/view?usp=sharing
- <br>
+Follow this link to a video walkthrough on how to user the README Generator: https://drive.google.com/file/d/1pmJN-LFrl8D6-hIq54Rif2x64U9aqSDI/view?usp=sharing
+<br>
 
 ____________________________________________
  
 ### Contributing
 N/A
- <br>
+<br>
 
 ____________________________________________
  
 ### Tests
 N/A
- <br>
+<br>
 
 ____________________________________________
  
