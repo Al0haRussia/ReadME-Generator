@@ -6,56 +6,67 @@ const { animationFrame } = require('rxjs');
 // Generates Answers based off of user input
 const questions = [
     {
+        // Generates title
         type: 'input',
         name: 'title',
         message: 'Enter title of README.',
     } , {
+        // Generates description text
         type: 'input',
         name: 'description',
         message: 'Enter short description for README.',
     } , {
+        // Will be user in later functions to generate the badge amd
         type: 'list',
         name: 'license',
         message: 'What license do you wish to use?',
         choices: ["MIT", "BSD", "GNU"],
     } , {
+        // Will generate text for installation
         type: 'input',
         name: 'installation',
         message: 'Enter how to install README Generator',
     } , {
+        // Will generate explaination text
         type: 'input',
         name: 'usage',
         message: 'Explain how to use code in README.',
     } , {
+        // Will generate names of those who contributed
         type: 'input',
         name: 'contributing',
         message: 'Enter names of those who contributed to the code, enter "N/A" if there is none.',
     } , {
+        // Will generate text or pictues of test results
         type: 'input',
         name: 'test',
         message: 'Enter test results/picture of README.',
     } , {
+        // Will put profile link in href
         type: 'input',
         name: 'profileLink',
         message: 'Enter Github profile link',
     } , {
+        // Will generate your profile name to create hyperlink to profile
         type: 'input',
         name: 'profileName',
         message: 'Enter Github profile name',
     } , {
+        // Will generate hyperlink for your email
         type: 'input',
         name: 'email',
         message: 'Enter Email',
     } , {
+        // Will input year for license
         type: "input",
         name: "year",
         message: "Enter the current year for license.",
-      },
-      {
+    },  {
+        // Will input full name for license
         type: "input",
         name: "name",
         message: "Enter your full name for license.",
-      },
+    },
 ];
 
 
@@ -76,6 +87,7 @@ function readmeGen(answers) {
 
     // Generates License Text based off of answers
     function licenseTxt(answers) {
+        // Will generate this text is license chosen is MIT
         if (answers.license === "MIT")
             return `Copyright (c) ${answers.year} ${answers.name}
         
@@ -96,7 +108,8 @@ function readmeGen(answers) {
             LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
             OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
             SOFTWARE.`;
-  
+        
+        // Will generate this text is license chosen is GNU
         if (answers.license === "GNU")
             return `Copyright (C) ${answers.year}  ${answers.name}
       
@@ -112,7 +125,8 @@ function readmeGen(answers) {
       
             You should have received a copy of the GNU General Public License
             along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
-  
+        
+        // Will generate this text is license chosen is BSD
         if (answers.license === "BSD")
             return `Copyright 1992-${answers.year} The FreeBSD Project.
 
@@ -166,4 +180,5 @@ ${licenseTxt(answers)}`, (err) => err ? console.error(err) : console.log('Succes
     );
 };
 
+// Runs the readme Generator based off of the user answers to the questions
 inquirer.prompt(questions).then(readmeGen);
