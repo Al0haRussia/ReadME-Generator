@@ -61,7 +61,7 @@ To install the README generator: <br>
 ____________________________________________
 
 ### Usage
-Follow this link to a video walkthrough on how to user the README Generator: https://drive.google.com/file/d/1pmJN-LFrl8D6-hIq54Rif2x64U9aqSDI/view?usp=sharing
+Follow this link to a video walkthrough on how to use the README Generator: https://drive.google.com/file/d/1pmJN-LFrl8D6-hIq54Rif2x64U9aqSDI/view?usp=sharing
 <br>
 
 ____________________________________________
