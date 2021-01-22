@@ -1,4 +1,4 @@
-# README Generator
+# This is the Title
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,31 +7,7 @@
 ## Description
 
 
-### This is a generator for the README file that follows these guidelines:
-```md
-GIVEN a command-line application that accepts user input
-
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+### This is the description
 
 ____________________________________________
 
@@ -52,29 +28,26 @@ ____________________________________________
 ____________________________________________
 
 ### Installation
-To install the README generator: <br>
-        1. Download this repository <br>
-        2. Copy and paste the index.js and package.json into your own repository <br>
-        3. Then open your the index.js in the integrated terminal and run the command ```npm i``` <br>
-<br>
+ 
+This is how you install <br>
  
 ____________________________________________
 
 ### Usage
-Follow this link to a video walkthrough on how to use the README Generator: https://drive.google.com/file/d/1pmJN-LFrl8D6-hIq54Rif2x64U9aqSDI/view?usp=sharing
-<br>
+ 
+Explaination goes here <br>
 
 ____________________________________________
  
 ### Contributing
-N/A
-<br>
+ 
+N/A <br>
 
 ____________________________________________
  
 ### Tests
-N/A
-<br>
+ 
+This is were test results go <br>
 
 ____________________________________________
  
@@ -82,14 +55,14 @@ ____________________________________________
 
 You can reach me for questions at:
  
-Github Profile: <a href="https://github.com/Al0haRussia">Al0haRussia</a>
+Github Profile: <a href="This is where your profile link goes">This is where your profile name goes</a>
 
-Email: gates.kyle@hotmail.com
+Email: This is where your email goes
 ____________________________________________
  
 ### License
  
-Copyright (c) 2021  Kyle Gates
+Copyright (c) 2021 This is where your name goes
         
             Permission is hereby granted, free of charge, to any person obtaining a copy
             of this software and associated documentation files (the "Software"), to deal
